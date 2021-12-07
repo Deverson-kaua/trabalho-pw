@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #b45ec2;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+.menu{
+    width: 100%;
+    background-color: #00000052;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 20px;
+
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.menu ul li{
+list-style: none;
+margin-top: 19px;
+margin-left: 25px;
+transition: 0.5s;
+}
+
+.menu ul li a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #fff;
+    text-transform:uppercase;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover{
+    color: #ffef97;
+}
+
+.img-menu{
+    border-radius: 5px;
+    width: 3%;
+    margin-top: 5px;
+    
+}
+
+h1{
+    color: #97c4ff;
+}
+
+h2{
+    color: aliceblue;
+}
+
+h5{
+    color: darkgrey;
+}
+
+
+
+
+
+.box1{
+    background-color: #00000052;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+
+}
+.box1 img{
+    border-radius: 100px;
+    width: 10%;
+    margin-top: 30px;
+}
+.box2{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-top: 45px;
+    background-color: #00000052;
+
+}
+.box2 img{
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.box3{
+    
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+.rodape{
+    background-color: #00000052;
+    text-align: center;
+}
+
+.rodape h3{
+    font-family: 'Satisfy', cursive;
+    color:#00ccff;
+
+}
+
+.cadastro{
+	background-color: #00000052 ;
+    text-align: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+
+#login{
+	margin-left: 36%;
+	margin-right: 50%;
+	margin-top: 2%;
+	top: 50%;
+	left: 50%;
+	width: 350px;
+	height: 420px;
+	padding: 80px 40px;
+}
+
+
+#login input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+#login input[type="text"],
+#login input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+::placeholder{
+	color: rgb(255,255,255,.5);
+}
+
+#login a{
+	color:#fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+.button{
+    background-color: lightseagreen;
+}
+
+.pai{
+    display: inline-flex;
+    height: 150px; 
+    margin-bottom: 10%;
+    width: 95%;
+}
+.filho{
+    background-color: #224d4d;
+    color: white;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 15%;
+    height: 320px;
+    text-align: center;
+    margin-bottom: 70px;
+    border-radius: 5%;
+    transition: 0.5s;
+}
